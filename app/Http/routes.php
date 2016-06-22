@@ -23,3 +23,6 @@ Route::get('/mail',function (){
         $message->to('kska213@gmail.com')->cc('bar@example.com');
     });
 });
+Route::get('test',function (){
+    return "this change is just for testing github";
+});
