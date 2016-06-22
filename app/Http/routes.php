@@ -24,5 +24,5 @@ Route::get('/mail',function (){
     });
 });
 Route::get('testing',function (){
-    return 'this is for testing branch'
+    return 'this is for testing branch';
 });
